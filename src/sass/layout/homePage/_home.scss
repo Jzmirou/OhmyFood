@@ -1,0 +1,64 @@
+@use "../../abstracts" as *;
+@use "../../utilities" as *;
+
+main > *:nth-child(2n) {
+    background: var(--bg-light, map-get($colors, bg, "light"));
+}
+
+section > div {
+    margin-block: 1rem;
+}
+section {
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+.localisation {
+    background: var(--bg-medium, map-get($colors, bg, "medium"));
+    @extend %flex-center;
+}
+.banner .container {
+    @extend %flex-column;
+    text-align: center;
+    align-items: center;
+}
+
+.localisation {
+    padding: 1rem;
+}
+.fonctions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.restaurants {
+    .cards {
+        @extend %grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        max-width: 57rem;
+        margin: 0 auto;
+        @include md {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .card {
+        width: 100%;
+    }
+    .card__img {
+        height: 180px;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .card_banner {
+        height: 30%;
+    }
+    .card__like {
+        z-index: 2;
+    }
+}
