@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "copy:html": "copyfiles -u 1 ./src/*.html public",
-    "copy:assets": "copyfiles -u 1 ./src/assets/**/* public",
+    "copy:html": "copyfiles -u 1 ./src/**/*.html public",
+    "copy:assets": "copyfiles -u 1 ./src/assets/**/**/**/**/* public",
     "copy": "npm-run-all --parallel copy:*",
     "build:sass": "sass --no-source-map src/sass:public/css",
     "build": "npm-run-all copy build:* postbuild",

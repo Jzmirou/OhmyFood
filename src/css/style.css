@@ -118,6 +118,7 @@ button {
   --bg-medium: #eeeeee;
   --bg-dark: #2a303d;
   --bg-color: #f5edff;
+  --bg-grey: #636363;
   --text-white: #ffffff;
   --text-light: #f5f5f5;
   --text-medium: #cccccc;
@@ -289,12 +290,13 @@ card:focus-visible, .button:hover,
   padding: 2rem;
   margin-left: 0.75rem;
   width: 100%;
+  align-items: center;
   max-width: 22rem;
 }
-.fonction:last-child {
+.fonction.active {
   background: var(--bg-color, #f5edff);
 }
-.fonction:last-child .icon {
+.fonction.active .icon {
   fill: var(--color-primary, #9356dc);
 }
 .fonction .bubble {
@@ -310,7 +312,8 @@ card:focus-visible, .button:hover,
   font-weight: 500;
 }
 .fonction .icon {
-  width: 1.5rem;
+  width: 1.25rem;
+  fill: var(--bg-grey, #636363);
 }
 
 .card {
