@@ -1,0 +1,14 @@
+@use "../abstracts" as *;
+
+:root {
+    /*----- Font Size -----*/
+    @each $shade, $value in $font-size {
+        --fs-#{$shade}: #{$value};
+    }
+    /*----- Colors -----*/
+    @each $color, $shades in $colors {
+        @each $shade, $value in $shades {
+            --#{$color}-#{$shade}: #{$value};
+        }
+    }
+}
