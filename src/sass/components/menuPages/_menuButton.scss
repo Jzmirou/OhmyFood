@@ -1,0 +1,55 @@
+@use "../../abstracts" as *;
+@use "../../utilities" as *;
+
+.menu__plat {
+    display: flex;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    background: var(--bg-white, map-get($colors, bg, "white"));
+    @extend %box-shadow__card;
+    overflow: hidden;
+    &:hover .check__container,
+    &.checked .check__container {
+        flex-basis: 5rem;
+        svg {
+            transform: rotate(0deg);
+        }
+    }
+}
+.plat__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.875rem;
+    overflow: hidden;
+    gap: 1.25rem;
+    width: 100%;
+    .menu__price {
+        align-self: flex-end;
+    }
+}
+.menu__text {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    > * {
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+.check__container {
+    background: var(--color-tertiary, map-get($colors, color, "tertiary"));
+    transition: all 0.2s ease-in-out;
+    width: 0;
+    flex-basis: 0;
+    display: grid;
+    place-content: center;
+    svg {
+        fill: #fff;
+        width: 1.25rem;
+        transform: rotate(-90deg);
+        transition: transform 0.2s ease;
+    }
+}
