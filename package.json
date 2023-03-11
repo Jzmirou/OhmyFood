@@ -4,7 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "copy:html": "copyfiles -u 1 ./src/*.html public",
+    "copy:assets": "copyfiles -u 1 ./src/assets/**/* public",
+    "copy": "npm-run-all --parallel copy:*",
+    "build:sass": "sass --no-source-map src/sass:public/css",
+    "build": "npm-run-all copy build:* postbuild",
+    "postbuild": "postcss -r public/css/*.css",
+    "watch:sass": "sass --no-source-map --watch src/sass:src/css",
+    "watch": "npm-run-all --parallel watch:*",
+    "serve": "browser-sync start --server src --files src",
+    "dev": "npm-run-all --parallel watch serve"
   },
   "keywords": [],
   "author": "",
