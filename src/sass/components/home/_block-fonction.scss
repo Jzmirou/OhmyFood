@@ -1,0 +1,43 @@
+@use "../../abstracts" as *;
+@use "../../utilities";
+
+$bubble-size: 1.5rem;
+
+.fontions {
+    display: flex;
+    gap: 1rem;
+}
+.fonction {
+    background: var(--bg-light, map-get($colors, bg, "light"));
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    margin-left: calc($bubble-size / 2);
+    width: 100%;
+    max-width: 22rem;
+    @extend %box-shadow__card;
+    &:last-child {
+        background: var(--bg-color, map-get($colors, bg, "color"));
+        .icon {
+            fill: var(--color-primary, map-get($colors, color, "primary"));
+        }
+    }
+    .bubble {
+        position: absolute;
+        left: 0;
+        border-radius: 50%;
+        width: $bubble-size;
+        transform: translateX(-50%);
+        aspect-ratio: 1/1;
+        @extend %flex-center;
+        background: var(--color-primary, map-get($colors, color, "primary"));
+        color: var(--text-white, map-get($colors, text, "white"));
+        font-size: var(--fs-200, map-get($font-size, "200"));
+        font-weight: 500;
+    }
+    .icon {
+        width: 1.5rem;
+    }
+}

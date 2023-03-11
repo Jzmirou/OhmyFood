@@ -1,0 +1,18 @@
+.like__button {
+    width: 2rem;
+    height: 2rem; 
+    cursor: pointer;
+        .full-coeur, .coeur { 
+            transition: opacity 0.2s ease-in-out;
+        }   
+        .full-coeur{           
+            opacity: 0;        
+        }
+    &:hover .full-coeur, .actif {
+        opacity: 1;
+    }
+    &:hover .coeur {
+        opacity: 0;
+    }
+
+}

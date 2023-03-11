@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+.button {
+    background: linear-gradient(
+        170deg,
+        var(--color-secondary, map-get($colors, color, "secondary")),
+        var(--color-primary, map-get($colors, color, "primary"))
+    );
+    color: var(--text-white, map-get($colors, text, "white"));
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    border-radius: 50vmax;
+    margin: 1rem;
+    cursor: pointer;
+    @extend %box-shadow__card;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover,
+.button:focus-visible {
+    @extend %box-shadow__card-hover;
+    filter: brightness(1.1);
+}
