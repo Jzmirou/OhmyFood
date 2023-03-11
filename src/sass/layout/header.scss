@@ -1,0 +1,16 @@
+@use "../utilities";
+@use "./../abstracts" as *;
+
+.header {
+    height: 5rem;
+    width: 100%;
+    @extend %flex-center;
+    @extend %box-shadow__header;
+    position: relative;
+    .logo {
+    }
+    .back {
+        position: absolute;
+        left: max(5vw, 1rem);
+    }
+}

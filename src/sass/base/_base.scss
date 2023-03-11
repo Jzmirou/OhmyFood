@@ -1,0 +1,26 @@
+@use "../abstracts" as *;
+
+header {
+    padding: 1rem;
+}
+.container {
+    @include xs {
+    }
+    @include sm {
+        max-width: 48rem;
+        padding: 2rem;
+    }
+    @include md {
+        max-width: 54rem;
+    }
+    @include lg {
+        max-width: 58rem;
+        padding: 3rem 2rem;
+    }
+    @include xl {
+        max-width: 78rem;
+        padding: 3rem;
+    }
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}

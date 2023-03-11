@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+@use "../utilities" as *;
+
+footer,
+.footer {
+    background: var(--bg-dark, map-get($colors, bg, "dark"));
+    color: var(--text-light, map-get($colors, text, "light"));
+}
+
+.footer {
+    .footer__services {
+        margin: 0.885rem;
+        @extend %flex-column;
+        @include md {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .service {
+        display: flex;
+        gap: 1rem;
+        img {
+            width: 1em;
+        }
+        &:hover {
+            color: var(--text-medium, map-get($colors, text, "medium"));
+        }
+    }
+}
