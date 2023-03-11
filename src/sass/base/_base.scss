@@ -1,5 +1,7 @@
 @use "../abstracts" as *;
-
+html {
+    scroll-behavior: smooth;
+}
 header {
     padding: 1rem;
 }

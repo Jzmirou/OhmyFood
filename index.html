@@ -4,9 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preload" href="css/style.css" />
         <link rel="stylesheet" href="css/style.css" media="all" />
         <title>Ohmyfood - Restaurant gastronomique en livraison</title>
+        <meta
+            name="description"
+            content="Ohmyfood vous permet de commandez votre repas en ligne, New-York. "
+        />
+        <meta name="robots" content="all" />
+        <meta name="language" content="fr" />
     </head>
     <body>
         <header class="header">
@@ -31,7 +36,9 @@
                         >Découvrez des restaurants d'exeption, selecionnés par
                         nos soins</sub
                     >
-                    <a href="#" class="button"> Explorer nos restaurants </a>
+                    <a href="#restaurants" class="button">
+                        Explorer nos restaurants
+                    </a>
                 </div>
             </section>
             <section class="fonctionnement">
@@ -41,6 +48,7 @@
                         <div class="fonction">
                             <div class="bubble">1</div>
                             <svg
+                                class="icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512"
                             >
@@ -54,6 +62,7 @@
                         <div class="fonction">
                             <div class="bubble">2</div>
                             <svg
+                                class="icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512"
                             >
@@ -64,7 +73,7 @@
                             </svg>
                             <p>Choisissez un restaurant</p>
                         </div>
-                        <div class="fonction">
+                        <div class="fonction active">
                             <div class="bubble">3</div>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -81,12 +90,16 @@
                     </div>
                 </div>
             </section>
-            <section class="restaurants">
+            <section id="restaurants" class="restaurants">
                 <div class="container">
                     <h2>Restaurants</h2>
                     <div class="cards">
                         <div class="card">
-                            <a href="./pages/menu.html"> </a>
+                            <a
+                                href="./pages/menu.html"
+                                aria-label="lien vers le menu d'un restaurant"
+                            >
+                            </a>
                             <div class="card__badge">Nouveau</div>
                             <div class="card__img">
                                 <img
@@ -100,7 +113,10 @@
                                     <h3>La palette du goût</h3>
                                     <p class="ville">Menilmontant</p>
                                 </div>
-                                <button class="card__like like__button">
+                                <button
+                                    class="card__like like__button"
+                                    aria-label="Bouton j'aime"
+                                >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 512 512"
@@ -137,7 +153,11 @@
                             </div>
                         </div>
                         <div class="card">
-                            <a href=""> </a>
+                            <a
+                                href="./pages/menu.html"
+                                aria-label="lien vers le menu d'un restaurant"
+                            >
+                            </a>
                             <div class="card__badge">Nouveau</div>
                             <div class="card__img">
                                 <img
@@ -151,7 +171,10 @@
                                     <h3>La palette du goût</h3>
                                     <p class="ville">Menilmontant</p>
                                 </div>
-                                <button class="card__like like__button">
+                                <button
+                                    class="card__like like__button"
+                                    aria-label="Bouton j'aime"
+                                >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 512 512"
@@ -188,7 +211,10 @@
                             </div>
                         </div>
                         <div class="card">
-                            <a href=""></a>
+                            <a
+                                href="./pages/menu.html"
+                                aria-label="lien vers le menu d'un restaurant"
+                            ></a>
                             <div class="card__badge">Nouveau</div>
                             <div class="card__img">
                                 <img
@@ -202,7 +228,10 @@
                                     <h3>La palette du goût</h3>
                                     <p class="ville">Menilmontant</p>
                                 </div>
-                                <button class="card__like like__button">
+                                <button
+                                    class="card__like like__button"
+                                    aria-label="Bouton j'aime"
+                                >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 512 512"
@@ -239,7 +268,11 @@
                             </div>
                         </div>
                         <div class="card">
-                            <a class="card" href=""></a>
+                            <a
+                                class="card"
+                                href="./pages/menu.html"
+                                aria-label="lien vers le menu d'un restaurant"
+                            ></a>
 
                             <div class="card__badge">Nouveau</div>
                             <div class="card__img">
@@ -254,7 +287,10 @@
                                     <h3>La palette du goût</h3>
                                     <p class="ville">Menilmontant</p>
                                 </div>
-                                <button class="card__like like__button">
+                                <button
+                                    class="card__like like__button"
+                                    aria-label="Bouton j'aime"
+                                >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 512 512"
