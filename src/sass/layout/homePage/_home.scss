@@ -5,9 +5,6 @@ main > *:nth-child(2n) {
     background: var(--bg-light, map-get($colors, bg, "light"));
 }
 
-section > div {
-    margin-block: 1rem;
-}
 section {
     h2 {
         margin-bottom: 1rem;
