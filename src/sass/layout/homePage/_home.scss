@@ -9,10 +9,18 @@ section {
     h2 {
         margin-bottom: 1rem;
     }
+    .container {
+        > div {
+            margin: 3rem 0;
+        }
+    }
 }
 .localisation {
     background: var(--bg-medium, map-get($colors, bg, "medium"));
     @extend %flex-center;
+    .icon {
+        width: 1rem;
+    }
 }
 .banner .container {
     @extend %flex-column;
@@ -35,7 +43,7 @@ section {
         justify-content: center;
         grid-template-columns: 1fr;
         max-width: 57rem;
-        margin: 0 auto;
+        margin-inline: auto;
         @include md {
             grid-template-columns: repeat(2, 1fr);
         }

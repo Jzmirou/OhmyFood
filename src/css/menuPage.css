@@ -2,15 +2,18 @@
   font-family: "Roboto";
   src: url("../assets/fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../assets/fonts/Roboto/Roboto-Regular.woff") format("woff");
   font-weight: 400;
+  font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
   src: url("../assets/fonts/Roboto/Roboto-Bold.woff2") format("woff2"), url("../assets/fonts/Roboto/Roboto-Bold.woff") format("woff");
   font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Shrikhand";
   src: url("../assets/fonts/Shrikhand/Shrikhand-Regular.woff2") format("woff2"), url("../assets/fonts/Shrikhand/Shrikhand-Regular.woff") format("woff");
+  font-display: swap;
 }
 /* Box sizing rules */
 *,
@@ -274,6 +277,98 @@ header {
   opacity: 0;
 }
 
+.loading__wrapper {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  inset: 0;
+  display: grid;
+  place-content: center;
+  animation: loading-wrapper 2s linear;
+  animation-fill-mode: both;
+  z-index: 3;
+}
+.loading__wrapper .loading {
+  display: inline-block;
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+.loading__wrapper .loading div {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  animation: loading 1.2s linear infinite;
+}
+.loading__wrapper .loading div:nth-child(1) {
+  top: 16px;
+  left: 16px;
+  animation-delay: 0s;
+  background-color: var(--color-primary);
+}
+.loading__wrapper .loading div:nth-child(2) {
+  top: 16px;
+  left: 64px;
+  animation-delay: 0.4s;
+  background-color: var(--color-tertiary);
+}
+.loading__wrapper .loading div:nth-child(3) {
+  top: 16px;
+  left: 112px;
+  animation-delay: 0.8s;
+  background-color: var(--color-secondary);
+}
+.loading__wrapper .loading div:nth-child(4) {
+  top: 64px;
+  left: 16px;
+  animation-delay: 0.4s;
+  background-color: var(--color-tertiary);
+}
+.loading__wrapper .loading div:nth-child(5) {
+  top: 64px;
+  left: 64px;
+  animation-delay: 0.8s;
+  background-color: var(--color-secondary);
+}
+.loading__wrapper .loading div:nth-child(6) {
+  top: 64px;
+  left: 112px;
+  animation-delay: 1.2s;
+  background-color: var(--color-primary);
+}
+.loading__wrapper .loading div:nth-child(7) {
+  top: 112px;
+  left: 16px;
+  animation-delay: 0.8s;
+  background-color: var(--color-primary);
+}
+.loading__wrapper .loading div:nth-child(8) {
+  top: 112px;
+  left: 64px;
+  animation-delay: 1.2s;
+  background-color: var(--color-tertiary);
+}
+.loading__wrapper .loading div:nth-child(9) {
+  top: 112px;
+  left: 112px;
+  animation-delay: 1.6s;
+  background-color: var(--color-secondary);
+}
+
+@keyframes loading-wrapper {
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes loading {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
 .menu__plat {
   display: flex;
   cursor: pointer;
@@ -332,6 +427,12 @@ header {
   height: 5rem;
   width: 100%;
   position: relative;
+}
+.header .logo {
+  width: 12rem;
+}
+.header .logo img {
+  width: 100%;
 }
 .header .back {
   position: absolute;
@@ -406,7 +507,7 @@ footer,
 }
 @media (min-width: 768px) {
   .menu__section {
-    width: auto;
+    width: 22rem;
   }
 }
 .menu__section h2 {

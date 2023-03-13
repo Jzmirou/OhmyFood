@@ -8,6 +8,10 @@
     @extend %box-shadow__header;
     position: relative;
     .logo {
+        width: 12rem;
+        img {
+            width: 100%;
+        }
     }
     .back {
         position: absolute;
