@@ -1,0 +1,287 @@
+[
+    {
+        "name": "A la française",
+        "image": {
+            "480": "./assets/img/images/ALaFrancaise_480.webp",
+            "1024": "./assets/img/images/ALaFrancaise_1024.webp"
+        },
+        "ville": "Cité Rouge",
+        "menu": [
+            {
+                "name": "entrées",
+                "plats": [
+                    {
+                        "name": "Tartare de poulpe acidulé",
+                        "description": "Aux zestes d'oranges",
+                        "price": 25
+                    },
+                    {
+                        "name": "Velouté de légumes d'antan",
+                        "description": "Carotte, panais, topinambour",
+                        "price": 35
+                    },
+                    {
+                        "name": "Soupe à l'oignon",
+                        "description": "Revisitée",
+                        "price": 20
+                    }
+                ]
+            },
+            {
+                "name": "plat",
+                "plats": [
+                    {
+                        "name": "Coquille Saint-Jacques",
+                        "description": "Accompagnées d'une purée de panais",
+                        "price": 20
+                    },
+                    {
+                        "name": "Magret de canard",
+                        "description": "Et parmentier de pommes de terre",
+                        "price": 35
+                    },
+                    {
+                        "name": "Pigeonneau d'Ille-et-Vilaine",
+                        "description": "Sur son lit de gnocchis aux légumes",
+                        "price": 44
+                    }
+                ]
+            },
+            {
+                "name": "desert",
+                "plats": [
+                    {
+                        "name": "Pétales de violettes glacés",
+                        "description": "Et urée de noisettes",
+                        "price": 18
+                    },
+                    {
+                        "name": "Fondant au chocolat",
+                        "description": "Revisité",
+                        "price": 22
+                    },
+                    {
+                        "name": "Millefeuille croustillant",
+                        "description": "Myrtilles et pâte d'amande",
+                        "price": 23
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Le délice des sens",
+        "image": {
+            "480": "./assets/img/images/LeDeliceDesSens_480.webp",
+            "1024": "./assets/img/images/LeDeliceDesSens_1024.webp"
+        },
+        "ville": "Folie-Méricourt",
+        "menu": [
+            {
+                "name": "entrées",
+                "plats": [
+                    {
+                        "name": "Tartare de thon",
+                        "description": "Assaisonné au yuzu",
+                        "price": 25
+                    },
+                    {
+                        "name": "Bouchée de homard croustillant",
+                        "description": "Et sa farandole de petits légumes",
+                        "price": 35
+                    },
+                    {
+                        "name": "Velouté de cèpes",
+                        "description": "Aux truffes",
+                        "price": 20
+                    }
+                ]
+            },
+            {
+                "name": "plat",
+                "plats": [
+                    {
+                        "name": "Poulet rôti aux herbes de Provence",
+                        "description": "Et sa crème de truffe",
+                        "price": 20
+                    },
+                    {
+                        "name": "Langouste rôtie",
+                        "description": "Et ses légumes de saison",
+                        "price": 35
+                    },
+                    {
+                        "name": "Côte de boeuf Angus",
+                        "description": "Et sa purée de panais",
+                        "price": 44
+                    }
+                ]
+            },
+            {
+                "name": "desert",
+                "plats": [
+                    {
+                        "name": "Farandole de desserts",
+                        "description": "Du chef",
+                        "price": 18
+                    },
+                    {
+                        "name": "Crème brûlée",
+                        "description": "Revisitée",
+                        "price": 18
+                    },
+                    {
+                        "name": "Tiramisu",
+                        "description": "À la noisette ",
+                        "price": 23
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "La note enchantée",
+        "image": {
+            "480": "./assets/img/images/LaNoteEnchante_480.webp",
+            "1024": "./assets/img/images/LaNoteEnchante_1024.webp"
+        },
+        "ville": "Charonne",
+        "menu": [
+            {
+                "name": "entrées",
+                "plats": [
+                    {
+                        "name": "Ravioles de foie gras",
+                        "description": "Accompagnées de leur crème à la truffe",
+                        "price": 25
+                    },
+                    {
+                        "name": "Caviar osciètre",
+                        "description": "Sur blini à la farine de blé noir",
+                        "price": 35
+                    },
+                    {
+                        "name": "Homard et espuma de potiron",
+                        "description": "Marinées aux zestes d'orange",
+                        "price": 20
+                    },
+                    {
+                        "name": "Fois gras de canard cuit entier",
+                        "description": "confiture de figue et pain toasté",
+                        "price": 35
+                    }
+                ]
+            },
+            {
+                "name": "plat",
+                "plats": [
+                    {
+                        "name": "Noix de coquilles Saint-Jacques",
+                        "description": "Sur lit de purée de céleri-rave",
+                        "price": 35
+                    },
+                    {
+                        "name": "Langoustine poêlée",
+                        "description": "Et purée de patate douce",
+                        "price": 35
+                    },
+                    {
+                        "name": "Mijoté de queue de bœuf",
+                        "description": "Et riz sauvage aux zeste de citron",
+                        "price": 44
+                    }
+                ]
+            },
+            {
+                "name": "desert",
+                "plats": [
+                    {
+                        "name": "Macaron noisette et chocolat",
+                        "description": "Glace au caramel brun et sel de Guérande",
+                        "price": 18
+                    },
+                    {
+                        "name": "Baba au rhum revisité",
+                        "description": "Avec son coulis de citron",
+                        "price": 22
+                    },
+                    {
+                        "name": "Tarte au citron meringuée",
+                        "description": "Déstructurée",
+                        "price": 23
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "La palette du goût",
+        "image": {
+            "480": "./assets/img/images/LaPaletteDuGout_480.webp",
+            "1024": "./assets/img/images/LaPaletteDuGout_1024.webp"
+        },
+        "ville": "Menilmontant",
+        "menu": [
+            {
+                "name": "entrées",
+                "plats": [
+                    {
+                        "name": "Fricassée d'escargots",
+                        "description": "Au piment d'Espelette",
+                        "price": 25
+                    },
+                    {
+                        "name": "Foie gras de canard mi-cuit",
+                        "description": "Et ses copeaux de truffe noire",
+                        "price": 35
+                    },
+                    {
+                        "name": "Oeuf au plat",
+                        "description": "Assaisonné à la truffe sur lit de caviar",
+                        "price": 20
+                    }
+                ]
+            },
+            {
+                "name": "plat",
+                "plats": [
+                    {
+                        "name": "Filet de boeuf aux herbes",
+                        "description": "Accompagné de sa ribambelle de légumes",
+                        "price": 40
+                    },
+                    {
+                        "name": "Parmentier de queue de boeuf",
+                        "description": "A la truffe noire sur sa purée de panais",
+                        "price": 35
+                    },
+                    {
+                        "name": "Filet de turbot",
+                        "description": "Aux agrumes",
+                        "price": 44
+                    }
+                ]
+            },
+            {
+                "name": "desert",
+                "plats": [
+                    {
+                        "name": "Paris-Brest",
+                        "description": "Revisité",
+                        "price": 18
+                    },
+                    {
+                        "name": "Macaron au chocolat d'exception",
+                        "description": "Et glace à la vanille de Madagascar",
+                        "price": 22
+                    },
+                    {
+                        "name": "Mousse au chocolat",
+                        "description": "Au piment d'Espelette et à la truffe noire",
+                        "price": 23
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,92 @@
+.loading__wrapper {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    inset: 0;
+    display: grid;
+    place-content: center;
+    animation: loading-wrapper 2s linear;
+    animation-fill-mode: both;
+    z-index: 3;
+    .loading {
+        display: inline-block;
+        position: relative;
+        width: 160px;
+        height: 160px;
+        div {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #fff;
+            animation: loading 1.2s linear infinite;
+            &:nth-child(1) {
+                top: 16px;
+                left: 16px;
+                animation-delay: 0s;
+                background-color: var(--color-primary);
+            }
+            &:nth-child(2) {
+                top: 16px;
+                left: 64px;
+                animation-delay: 0.4s;
+                background-color: var(--color-tertiary);
+            }
+            &:nth-child(3) {
+                top: 16px;
+                left: 112px;
+                animation-delay: 0.8s;
+                background-color: var(--color-secondary);
+            }
+            &:nth-child(4) {
+                top: 64px;
+                left: 16px;
+                animation-delay: 0.4s;
+                background-color: var(--color-tertiary);
+            }
+            &:nth-child(5) {
+                top: 64px;
+                left: 64px;
+                animation-delay: 0.8s;
+                background-color: var(--color-secondary);
+            }
+            &:nth-child(6) {
+                top: 64px;
+                left: 112px;
+                animation-delay: 1.2s;
+                background-color: var(--color-primary);
+            }
+            &:nth-child(7) {
+                top: 112px;
+                left: 16px;
+                animation-delay: 0.8s;
+                background-color: var(--color-primary);
+            }
+            &:nth-child(8) {
+                top: 112px;
+                left: 64px;
+                animation-delay: 1.2s;
+                background-color: var(--color-tertiary);
+            }
+            &:nth-child(9) {
+                top: 112px;
+                left: 112px;
+                animation-delay: 1.6s;
+                background-color: var(--color-secondary);
+            }
+        }
+    }
+}
+@keyframes loading-wrapper {
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes loading {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}

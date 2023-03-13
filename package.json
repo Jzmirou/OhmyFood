@@ -1,31 +1,33 @@
 {
-  "name": "OhmyFood",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "copy:html": "copyfiles -u 1 './src/**/*.html' ./",
-    "copy:assets": "copyfiles -u 1 './src/assets/**/*' ./",
-    "copy": "npm-run-all --parallel copy:*",
-    "build:sass": "sass --no-source-map src/sass:css",
-    "build": "npm-run-all build:* copy postbuild",
-    "postbuild": "postcss -r css/*.css",
-    "watch:sass": "sass --no-source-map --watch src/sass:src/css",
-    "watch": "npm-run-all --parallel watch:*",
-    "serve": "browser-sync start --server src --files src",
-    "dev": "npm-run-all --parallel watch serve"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "browser-sync": "^2.28.3",
-    "copyfiles": "^2.4.1",
-    "cssnano": "^5.1.15",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0",
-    "sass": "^1.59.2"
-  }
+    "name": "OhmyFood",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "copy:assets": "copyfiles -u 1 './src/assets/**/*' ./docs",
+        "copy": "npm-run-all --parallel copy:*",
+        "build:html": "node packages/functions/jsonToHtml",
+        "build:sass": "sass --no-source-map src/sass:docs/css",
+        "build": "npm-run-all build:* copy format:* postbuild",
+        "format:html": "prettier --write ./docs/*",
+        "postbuild": "postcss -r ./docs/css/*.css",
+        "watch:sass": "sass --no-source-map --watch src/sass:src/css",
+        "watch": "npm-run-all --parallel watch:*",
+        "serve": "browser-sync start --server src --files src",
+        "dev": "npm-run-all --parallel watch serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "browser-sync": "^2.28.3",
+        "copyfiles": "^2.4.1",
+        "cssnano": "^5.1.15",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.21",
+        "postcss-cli": "^10.1.0",
+        "prettier": "2.8.4",
+        "sass": "^1.59.2"
+    }
 }
