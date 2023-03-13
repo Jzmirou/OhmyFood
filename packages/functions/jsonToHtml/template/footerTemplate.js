@@ -1,6 +1,6 @@
-export const footerTemplate = (isHome = true) => {
+export const footerTemplate = (isHome = false) => {
     let homeImgUrl = "./assets/img";
-    let pageImgUrl = "..assets/img";
+    let pageImgUrl = "../assets/img";
     let finalUrl = isHome ? homeImgUrl : pageImgUrl;
     const template = `    
     <footer class="footer">
