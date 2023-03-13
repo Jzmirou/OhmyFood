@@ -438,6 +438,12 @@ header {
   position: absolute;
   left: max(5vw, 1rem);
 }
+.header .back img {
+  transition: transform 0.2s ease-in-out;
+}
+.header .back:hover img {
+  transform: translateX(-0.2rem);
+}
 
 footer,
 .footer {
@@ -475,6 +481,16 @@ footer,
   position: relative;
   z-index: 2;
 }
+@media (min-width: 768px) {
+  .menu__banner img {
+    height: 20rem;
+  }
+}
+@media (min-width: 1200px) {
+  .menu__banner img {
+    height: 24rem;
+  }
+}
 
 .menu__command {
   margin: -3rem auto 0;
@@ -482,6 +498,16 @@ footer,
   border-radius: 2rem 2rem 0 0;
   z-index: 4;
   position: relative;
+}
+@media (min-width: 768px) {
+  .menu__command {
+    margin: -5rem auto 0;
+  }
+}
+@media (min-width: 1200px) {
+  .menu__command {
+    margin: -8rem auto 0;
+  }
 }
 
 .menu__header {

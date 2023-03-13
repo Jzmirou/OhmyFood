@@ -426,11 +426,6 @@ card:focus-visible, .button:hover,
   width: 100%;
 }
 
-.card:hover,
-card:focus-visible {
-  transform: scale(1.01);
-}
-
 .card a {
   position: absolute;
   inset: 0;
@@ -467,6 +462,12 @@ card:focus-visible {
 .header .back {
   position: absolute;
   left: max(5vw, 1rem);
+}
+.header .back img {
+  transition: transform 0.2s ease-in-out;
+}
+.header .back:hover img {
+  transform: translateX(-0.2rem);
 }
 
 footer,

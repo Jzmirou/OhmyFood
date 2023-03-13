@@ -15,7 +15,6 @@
 .card:hover,
 card:focus-visible {
     @extend %box-shadow__card-hover;
-    transform: scale(1.01);
 }
 .card a {
     position: absolute;

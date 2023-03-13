@@ -4,7 +4,6 @@
 main > *:nth-child(2n) {
     background: var(--bg-light, map-get($colors, bg, "light"));
 }
-
 section {
     h2 {
         margin-bottom: 1rem;
@@ -27,7 +26,6 @@ section {
     text-align: center;
     align-items: center;
 }
-
 .localisation {
     padding: 1rem;
 }
@@ -53,7 +51,6 @@ section {
     }
     .card__img {
         height: 180px;
-
         img {
             object-fit: cover;
             height: 100%;

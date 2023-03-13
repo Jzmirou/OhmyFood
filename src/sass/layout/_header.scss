@@ -16,5 +16,13 @@
     .back {
         position: absolute;
         left: max(5vw, 1rem);
+        img {
+            transition: transform 0.2s ease-in-out;
+        }
+        &:hover {
+            img {
+                transform: translateX(-0.2rem);
+            }
+        }
     }
 }

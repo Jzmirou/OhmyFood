@@ -9,10 +9,22 @@
         object-fit: cover;
         position: relative;
         z-index: 2;
+        @include md {
+            height: 20rem;
+        }
+        @include xl {
+            height: 24rem;
+        }
     }
 }
 .menu__command {
     margin: -3rem auto 0;
+    @include md {
+        margin: -5rem auto 0;
+    }
+    @include xl {
+        margin: -8rem auto 0;
+    }
     background: var(--bg-light, map-get($colors, bg, "light"));
     border-radius: 2rem 2rem 0 0;
     z-index: 4;
