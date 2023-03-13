@@ -42,10 +42,9 @@ export const createHtml = (data) => {
 <!DOCTYPE html>
 <html lang="${lang}">
 <head>
-    <meta charset="utf-8">
+    ${head}           
     ${favicon}
     ${title}
-    ${head}           
     ${css}
     </head>
     <body>
