@@ -58,7 +58,7 @@ restaurants car leur menu est préparé à l’avance. Plus de perte de temps à
 				<br />
 				<span style="padding-bottom: 6px;">Jeremy Zmirou</span>
 				<br/>
-				<a cstyle="margin-right: 8px" href="mailto:j.zmirou@gmail.com#gh-dark-mode-only">
+				<a style="margin-right: 8px" href="mailto:j.zmirou@gmail.com#gh-dark-mode-only">
 					<img width="25" src="./images/envelope-solid-white.svg#gh-dark-mode-only">
 				</a>
 				<a style="margin-right: 8px" href="mailto:j.zmirou@gmail.com#gh-light-mode-only">
