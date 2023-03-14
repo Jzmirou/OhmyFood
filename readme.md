@@ -1,7 +1,10 @@
 <p align="center">
 <img width="300" src="./docs/assets/img/logo/ohmyfood@2x.svg#gh-light-mode-only">
-
 <img width="300" src="./docs/assets/img/logo/ohmyfood@2x-purple.svg#gh-dark-mode-only">
+</p>
+
+<p align="center">
+Troisième projet du parcours "Développeur web" chez OpenClassroom.
 </p>
 
 ![mockup](./images/mockup.png)
@@ -38,7 +41,7 @@ restaurants car leur menu est préparé à l’avance. Plus de perte de temps à
 ## **Lighthouse PageSpeed Insights**
 
 \
-![Google PageSpeeg](./images/lighthouse.svg)
+[![Google PageSpeeg](./images/lighthouse.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjzmirou.github.io%2FOhmyFood%2F&hl=fr&form_factor=mobile)
 
 ## :dart: Objectifs attendus
 
