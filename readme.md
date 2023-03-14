@@ -16,7 +16,7 @@ utilisateurs de composer leur propre menu et réduire leur temps d’attente dan
 restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte
 !
 
-## **Technologie**
+## **Technologies**
 
 <div style="margin: 1rem 0" > 
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
@@ -42,6 +42,32 @@ restaurants car leur menu est préparé à l’avance. Plus de perte de temps à
 
 \
 [![Google PageSpeeg](./images/lighthouse.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjzmirou.github.io%2FOhmyFood%2F&hl=fr&form_factor=mobile)
+
+## **Auteurs**
+
+<b>
+<table>
+	<tbody>
+		<tr>
+			<td align="center">
+				<a href="https://github.com/Jzmirou">	  	
+					<img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/37706002" width="100px;" alt="Jeremy Zmirou"/>
+				</a>
+				<br />
+				<span style="padding-bottom: 6px;">Jeremy Zmirou</span>
+				<br/>
+				<a style="margin-right: 8px" href="https://github.com/Jzmirou" title="github">
+					<img width="25" src="./images/github-white.svg#gh-dark-mode-only">
+					<img width="25" src="./images/github.svg#gh-light-mode-only" >
+				</a>
+				<a href="mailto:j.zmirou@gmail.com">
+					<img width="25" src="./images/envelope-solid-white.svg#gh-dark-mode-only">
+					<img width="25" src="./images/envelope-solid.svg#gh-light-mode-only" >
+				</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ## :dart: Objectifs attendus
 
