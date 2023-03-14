@@ -56,13 +56,17 @@ restaurants car leur menu est préparé à l’avance. Plus de perte de temps à
 				<br />
 				<span style="padding-bottom: 6px;">Jeremy Zmirou</span>
 				<br/>
-				<a style="margin-right: 8px" href="https://github.com/Jzmirou" title="github">
-					<img width="25" src="./images/github-white.svg#gh-dark-mode-only">
-					<img width="25" src="./images/github.svg#gh-light-mode-only" >
-				</a>
-				<a href="mailto:j.zmirou@gmail.com">
+				<a cstyle="margin-right: 8px" href="mailto:j.zmirou@gmail.com#gh-dark-mode-only">
 					<img width="25" src="./images/envelope-solid-white.svg#gh-dark-mode-only">
-					<img width="25" src="./images/envelope-solid.svg#gh-light-mode-only" >
+				</a>
+				<a style="margin-right: 8px" href="mailto:j.zmirou@gmail.com#gh-light-mode-only">
+					<img width="25" src="./images/envelope-solid.svg#gh-light-mode-only" >		
+				</a>
+				<a href="https://github.com/Jzmirou#gh-dark-mode-only">
+					<img width="25" src="./images/github-white.svg#gh-dark-mode-only">	
+				</a>
+				<a href="https://github.com/Jzmirou#gh-light-mode-only">
+					<img width="25" src="./images/github.svg#gh-light-mode-only" >	
 				</a>
 			</td>
 		</tr>
