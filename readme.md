@@ -1,151 +1,56 @@
-# Reservia
-
-Deuxième projet du parcours "Développeur web" chez OpenClassroom. L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Reservia"
-
-![mockup](https://github.com/Jzmirou/JeremyZmirou_2_02012021/blob/master/asset/mockup/Desktop-1.png)
-
-## Éléments fournis par l'entreprise virtuelle.
-
--   La maquette pour les résolutions ordinateur et téléphone nous est donné.
--   Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
--   Les icones proviennent de [Font Awesome](https://fontawesome.com/)
--   Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
--   La police est ["Raleway"](https://fonts.google.com/specimen/Raleway)
-
-## Cahier des charges
-
--   L'integration doit se faire en HTML5 & CSS3, sans framework (bootstrap par exemple)
--   Le champ de recherche doit être un champ de saisie, dont le texte peut être édité. La fonctionnalité de recherche ne doit pas être implémenté pour autant.
--   Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
--   Les filtres, bien que non fonctionnels, doivent changer de style au survol.
--   Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
--   Même si aucune maquette pour la résolution tablette n'est fournis, l'intégration doit la prendre en charge.
--   Les images doivent être de taille adéquate afin qu'elle soit le plus jolie possible en impactant le moins possible le temps de chargement de la page.
--   [Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.]
--   Le site devra être compatible avec les dernières versions de Chrome et Firefox.
--   Le HTML et le CSS doivent être séparés et le dossier doit être organisé
--   Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
-<h1 align="center">
-  <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
-  Markdownify
-  <br>
-</h1>
-
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
-
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
+<img width="300" src="./docs/assets/img/logo/ohmyfood@2x.svg#gh-light-mode-only">
+
+<img width="300" src="./docs/assets/img/logo/ohmyfood@2x-purple.svg#gh-dark-mode-only">
 </p>
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
-</p>
+![mockup](./Images/mockup.png)
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+## **Presentation**
 
-## Key Features
+Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux
+utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les
+restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte
+!
 
--   LivePreview - Make changes, See changes
-    -   Instantly see what your Markdown documents look like in HTML as you create them.
--   Sync Scrolling
-    -   While you type, LivePreview will automatically scroll to the current location you're editing.
--   GitHub Flavored Markdown
--   Syntax highlighting
--   [KaTeX](https://khan.github.io/KaTeX/) Support
--   Dark/Light mode
--   Toolbar for basic Markdown formatting
--   Supports multiple cursors
--   Save the Markdown preview as PDF
--   Emoji support in preview :tada:
--   App will keep alive in tray for quick usage
--   Full screen mode
-    -   Write distraction free.
--   Cross platform
-    -   Windows, macOS and Linux ready.
+## **Technologie**
 
-## How To Use
+<div style="margin: 1rem 0" > 
+	<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
+	<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+	<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
+	<img src="https://img.shields.io/badge/postcss-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white" alt="Postcss"/>
+</div>
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## **Identité graphique**
 
-```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+### **Polices :**
 
-# Go into the repository
-$ cd electron-markdownify
+-   **Logo & titres:** Shrinkhand
+-   **Texte: Roboto:** Roboto
 
-# Install dependencies
-$ npm install
+### **Couleurs :**
 
-# Run the app
-$ npm start
-```
+-   **Primaire:** #9356DC ![#9356dc](https://placehold.co/20x20/9356dc/9356dc.png)
+-   **Secondaire:** #FF79DA ![#ff79da](https://placehold.co/20x20/ff79da/ff79da.png)
+-   **Tertiaire:** #99E2D0 ![#99e2d0](https://placehold.co/20x20/99e2d0/99e2d0.png)
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+## **Lighthouse PageSpeed Insights**
 
-## Download
+\
+![Google PageSpeeg](./images/lighthouse.svg)
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+## :dart: Objectifs attendus
 
-## Emailware
+-   Développer un site proposant le menu de **4 grands restaurants parisiens**
+-   Les **animations** devront se faire en **CSS**, sans JavaScript
+-   Utiliser **SASS** serait un plus
+-   L’ensemble du site devra être **responsive** sur mobile, tablette et desktop
+-   Les pages devront passer la **validation W3C** en HTML et CSS sans erreur
+-   Le site doit être parfaitement **compatible** avec les dernières versions desktop de **Chrome** et **Firefox**
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+## :white_check_mark: Compétences évaluées
 
-## Credits
-
-This software uses the following open source packages:
-
--   [Electron](http://electron.atom.io/)
--   [Node.js](https://nodejs.org/)
--   [Marked - a markdown parser](https://github.com/chjj/marked)
--   [showdown](http://showdownjs.github.io/showdown/)
--   [CodeMirror](http://codemirror.net/)
--   Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
--   [highlight.js](https://highlightjs.org/)
-
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-## Support
-
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p>
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## You may also like...
-
--   [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
--   [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
-
-## License
-
-MIT
-
----
-
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+-   Intégrer une maquette en mobile-first
+-   Mettre en œuvre des animations CSS
+-   Versionner son projet avec Git et Github
