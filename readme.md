@@ -4,7 +4,7 @@
 <img width="300" src="./docs/assets/img/logo/ohmyfood@2x-purple.svg#gh-dark-mode-only">
 </p>
 
-![mockup](./Images/mockup.png)
+![mockup](./images/mockup.png)
 
 ## **Presentation**
 
