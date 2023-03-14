@@ -7,7 +7,7 @@
 Troisième projet du parcours "Développeur web" chez OpenClassroom.
 </p>
 
-![mockup](./images/mockup.png)
+[![mockup](./images/mockup.png)](https://jzmirou.github.io/OhmyFood/)
 
 ## **Presentation**
 
