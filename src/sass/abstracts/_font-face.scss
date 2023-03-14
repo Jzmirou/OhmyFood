@@ -1,0 +1,43 @@
+@mixin Roboto__font-face {
+    @include font-face(
+        Roboto,
+        "../assets/fonts/Roboto/Roboto-Regular",
+        400,
+        woff2 woff
+    );
+    @include font-face(
+        Roboto,
+        "../assets/fonts/Roboto/Roboto-Bold",
+        700,
+        woff2 woff
+    );
+}
+@mixin Shrikhand__font-face {
+    @include font-face(
+        Shrikhand,
+        "../assets/fonts/Shrikhand/Shrikhand-Regular",
+        700,
+        woff2 woff
+    );
+}
+@mixin font-face($name, $path, $weight: null, $exts: woff2 woff ttf) {
+    $src: null;
+    $formats: (
+        ttf: "truetype",
+    );
+    @each $ext in $exts {
+        $extmod: $ext;
+        $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+        $src: append(
+            $src,
+            url(quote($path + "." + $extmod)) format(quote($format)),
+            comma
+        );
+    }
+    @font-face {
+        font-family: quote($name);
+        src: $src;
+        font-weight: $weight;
+        font-display: swap;
+    }
+}

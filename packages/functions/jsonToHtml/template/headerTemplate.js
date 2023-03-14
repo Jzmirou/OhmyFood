@@ -1,9 +1,13 @@
-export const headerTemplate = (isHome = true) => {
-    let backArrow = backArrowTemplate;
-    if (isHome !== true) backArrow = "";
+export const headerTemplate = (isHome = false) => {
+    let backArrow = "";
+    isHome ? (backArrow = "") : (backArrow = backArrowTemplate);
     const template = `    
-    <header class="header">
-        <div class="logo">ohmyfood</div>
+    <header class="header">   
+        <div class="logo">
+            <img src="${
+                !isHome ? "." : ""
+            }./assets/img/logo/ohmyfood@2x.svg" alt="" />
+        </div>
         ${backArrow}
     </header>`;
 

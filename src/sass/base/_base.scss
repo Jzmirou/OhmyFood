@@ -1,4 +1,7 @@
 @use "../abstracts" as *;
+
+@include Roboto__font-face;
+
 html {
     scroll-behavior: smooth;
 }
