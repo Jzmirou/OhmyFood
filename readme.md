@@ -3,8 +3,8 @@
 <img width="300" src="./docs/assets/img/logo/ohmyfood@2x-purple.svg#gh-dark-mode-only">
 </p>
 
-<p align="center">
-Troisième projet du parcours "Développeur web" chez OpenClassroom.
+<p style="font-size: 18px; font-weight: bold" align="center">
+	Troisième projet du parcours "Développeur web" chez OpenClassroom.
 </p>
 
 [![mockup](./images/mockup.png)](https://jzmirou.github.io/OhmyFood/)
