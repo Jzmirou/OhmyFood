@@ -4,9 +4,9 @@ export const headerTemplate = (isHome = false) => {
     const template = `    
     <header class="header">   
         <div class="logo">
-            <img src="${
+            <img height="35" width="200" src="${
                 !isHome ? "." : ""
-            }./assets/img/logo/ohmyfood@2x.svg" alt="" />
+            }./assets/img/logo/ohmyfood@2x.svg" alt="Logo" />
         </div>
         ${backArrow}
     </header>`;
