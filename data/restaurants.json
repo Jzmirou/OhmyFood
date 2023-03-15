@@ -28,7 +28,7 @@
                 ]
             },
             {
-                "name": "plat",
+                "name": "plats",
                 "plats": [
                     {
                         "name": "Coquille Saint-Jacques",
@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "name": "desert",
+                "name": "desserts",
                 "plats": [
                     {
                         "name": "Pétales de violettes glacés",
@@ -98,7 +98,7 @@
                 ]
             },
             {
-                "name": "plat",
+                "name": "plats",
                 "plats": [
                     {
                         "name": "Poulet rôti aux herbes de Provence",
@@ -118,7 +118,7 @@
                 ]
             },
             {
-                "name": "desert",
+                "name": "desserts",
                 "plats": [
                     {
                         "name": "Farandole de desserts",
@@ -173,7 +173,7 @@
                 ]
             },
             {
-                "name": "plat",
+                "name": "plats",
                 "plats": [
                     {
                         "name": "Noix de coquilles Saint-Jacques",
@@ -193,7 +193,7 @@
                 ]
             },
             {
-                "name": "desert",
+                "name": "desserts",
                 "plats": [
                     {
                         "name": "Macaron noisette et chocolat",
@@ -243,7 +243,7 @@
                 ]
             },
             {
-                "name": "plat",
+                "name": "plats",
                 "plats": [
                     {
                         "name": "Filet de boeuf aux herbes",
@@ -263,7 +263,7 @@
                 ]
             },
             {
-                "name": "desert",
+                "name": "desserts",
                 "plats": [
                     {
                         "name": "Paris-Brest",
