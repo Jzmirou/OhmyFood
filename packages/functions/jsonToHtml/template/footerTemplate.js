@@ -3,9 +3,12 @@ export const footerTemplate = (isHome = false) => {
     let pageImgUrl = "../assets/img";
     let finalUrl = isHome ? homeImgUrl : pageImgUrl;
     const template = `    
-    <footer class="footer">
+<footer class="footer">
     <div class="container">
-        <h4>ohmyfood</h4>
+        <img
+        class="logo"
+        src="${isHome ? homeImgUrl : pageImgUrl}/logo/ohmyfood@2x-white.svg"
+        alt=""/>
         <div class="footer__services">
             <a href="#" class="service">
                 <img
@@ -37,16 +40,3 @@ export const footerTemplate = (isHome = false) => {
 
     return template;
 };
-const backArrowTemplate = `
-<a
-    href="../index.html"
-    aria-label="retournez à la page précédente"
-    class="back"
->
-    <img
-        height="24"
-        width="24"
-        src="../assets/img/icon/arrow-left-solid.svg"
-        alt=""
-    />
-</a>`;

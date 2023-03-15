@@ -1,5 +1,21 @@
-@use "../../abstracts" as *;
-@use "../../utilities" as *;
+@use "../abstracts" as *;
+@use "../utilities" as *;
+@include Shrikhand__font-face;
+
+.header {
+    .back {
+        position: absolute;
+        left: max(5vw, 1rem);
+        img {
+            transition: transform 0.2s ease-in-out;
+        }
+        &:hover {
+            img {
+                transform: translateX(-0.2rem);
+            }
+        }
+    }
+}
 
 .menu__banner {
     padding: 0;

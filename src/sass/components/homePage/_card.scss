@@ -13,8 +13,9 @@
     width: 100%;
 }
 .card:hover,
-card:focus-visible {
+.card:focus-visible {
     @extend %box-shadow__card-hover;
+    transform: translateY(-0.1rem);
 }
 .card a {
     position: absolute;

@@ -115,7 +115,7 @@ button {
 html {
   font-size: 14px;
 }
-@media (min-width: 480px) {
+@media (min-width: 30em) {
   html {
     font-size: 16px;
   }
@@ -126,15 +126,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1,
-.logo,
-h4 {
+h1 {
   font-weight: 500;
   font-family: "Shrikhand", serif;
-}
-
-.logo {
-  font-size: var(--fs-700, 2rem);
 }
 
 .banner h1 {
@@ -188,24 +182,24 @@ header {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
-@media (min-width: 480px) {
+@media (min-width: 30em) {
   .container {
     max-width: 48rem;
     padding: 2rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   .container {
     max-width: 54rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 62em) {
   .container {
     max-width: 58rem;
     padding: 3rem 2rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 75em) {
   .container {
     max-width: 78rem;
     padding: 3rem;
@@ -239,7 +233,7 @@ header {
 }
 
 .card:hover,
-card:focus-visible, .button:hover,
+.card:focus-visible, .button:hover,
 .button:focus-visible {
   box-shadow: rgba(0, 0, 0, 0.28) 0px 4px 12px;
 }
@@ -421,6 +415,11 @@ card:focus-visible, .button:hover,
   width: 100%;
 }
 
+.card:hover,
+.card:focus-visible {
+  transform: translateY(-0.1rem);
+}
+
 .card a {
   position: absolute;
   inset: 0;
@@ -454,16 +453,6 @@ card:focus-visible, .button:hover,
 .header .logo img {
   width: 100%;
 }
-.header .back {
-  position: absolute;
-  left: max(5vw, 1rem);
-}
-.header .back img {
-  transition: transform 0.2s ease-in-out;
-}
-.header .back:hover img {
-  transform: translateX(-0.2rem);
-}
 
 footer,
 .footer {
@@ -471,10 +460,13 @@ footer,
   color: var(--text-light, #f5f5f5);
 }
 
-.footer .footer__services {
-  margin: 0.885rem;
+.footer .logo {
+  width: 8rem;
 }
-@media (min-width: 768px) {
+.footer .footer__services {
+  margin-top: 1.25rem;
+}
+@media (min-width: 48em) {
   .footer .footer__services {
     flex-direction: row;
     justify-content: space-between;
@@ -489,6 +481,11 @@ footer,
 }
 .footer .service:hover {
   color: var(--text-medium, #cccccc);
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 main > *:nth-child(2n) {
@@ -531,7 +528,7 @@ section .container > div {
   max-width: 57rem;
   margin-inline: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   .restaurants .cards {
     grid-template-columns: repeat(2, 1fr);
   }

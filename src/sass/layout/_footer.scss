@@ -8,8 +8,11 @@ footer,
 }
 
 .footer {
+    .logo {
+        width: 8rem;
+    }
     .footer__services {
-        margin: 0.885rem;
+        margin-top: 1.25rem;
         @extend %flex-column;
         @include md {
             flex-direction: row;

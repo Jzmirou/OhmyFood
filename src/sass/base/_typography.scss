@@ -9,14 +9,9 @@ body {
     font-size: var(--fs-400, map-get($font-size, "400"));
     font-family: "Roboto", sans-serif;
 }
-h1,
-.logo,
-h4 {
+h1 {
     font-weight: 500;
     font-family: "Shrikhand", serif;
-}
-.logo {
-    font-size: var(--fs-700, map-get($font-size, "700"));
 }
 .banner h1 {
     font-family: "Roboto";

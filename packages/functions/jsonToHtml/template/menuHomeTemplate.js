@@ -12,7 +12,7 @@ export const menuHomeTemplate = ({ restaurants }) => {
                     alt=""
                 />
             </div>
-            <p>Paris, Belleville</p>
+            <p id="ville">Paris, Belleville</p>
         </div>
         <section class="banner">
             <div class="container">
