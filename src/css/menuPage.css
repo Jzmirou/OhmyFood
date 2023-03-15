@@ -429,25 +429,24 @@ header {
   transform: translateX(-0.2rem);
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main > * {
+  flex: 1;
+}
+
 .menu__banner {
   padding: 0;
 }
 .menu__banner img {
+  min-height: 16rem;
   width: 100%;
-  height: 16rem;
+  max-height: 40vh;
   object-fit: cover;
   position: relative;
   z-index: 2;
-}
-@media (min-width: 48em) {
-  .menu__banner img {
-    height: 20rem;
-  }
-}
-@media (min-width: 75em) {
-  .menu__banner img {
-    height: 24rem;
-  }
 }
 
 .menu__command {
