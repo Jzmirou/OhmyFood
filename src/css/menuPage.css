@@ -253,16 +253,17 @@ header {
   height: 2rem;
   cursor: pointer;
 }
-.like__button .full-coeur, .like__button .coeur {
+.like__button .full-coeur,
+.like__button .coeur {
   transition: opacity 0.2s ease-in-out;
 }
 .like__button .full-coeur {
   opacity: 0;
 }
-.like__button:hover .full-coeur, .like__button .actif {
+.like__button:hover .full-coeur, .like__button.active .full-coeur {
   opacity: 1;
 }
-.like__button:hover .coeur {
+.like__button:hover .coeur, .like__button.active .full-coeur {
   opacity: 0;
 }
 
@@ -495,7 +496,7 @@ header {
 }
 .menu__section h2 {
   position: relative;
-  padding: 0.225em 0;
+  padding: 0.4em 0;
   text-transform: uppercase;
   font-weight: 400;
 }
