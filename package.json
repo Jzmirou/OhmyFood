@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "copy:assets": "copyfiles -u 1 './src/assets/**/*' ./docs",
+        "copy:html": "copyfiles -u 1 './src/**/*.html' './docs'",
+        "copy:assets": "copyfiles -u 1 './src/assets/**/*' './docs'",
         "copy": "npm-run-all --parallel copy:*",
-        "build:html": "node packages/functions/jsonToHtml",
         "build:sass": "sass --no-source-map src/sass:docs/css",
         "build": "npm-run-all build:* copy format:* postbuild",
         "format:html": "prettier --write ./docs/*",
