@@ -269,7 +269,7 @@ header {
 .like__button:hover .full-coeur, .like__button.active .full-coeur {
   opacity: 1;
 }
-.like__button:hover .coeur, .like__button.active .full-coeur {
+.like__button:hover .coeur, .like__button.active .coeur {
   opacity: 0;
 }
 
@@ -487,6 +487,7 @@ footer,
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
 }
 
 main > *:nth-child(2n) {
