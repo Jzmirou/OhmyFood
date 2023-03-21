@@ -233,7 +233,7 @@ header {
 }
 
 .card:hover,
-.card:focus-visible, .button:hover,
+.card:focus-within, .button:hover,
 .button:focus-visible {
   box-shadow: rgba(0, 0, 0, 0.28) 0px 4px 12px;
 }
@@ -417,8 +417,12 @@ header {
 }
 
 .card:hover,
-.card:focus-visible {
+.card:focus-within {
   transform: translateY(-0.1rem);
+}
+
+.card:focus-within {
+  outline: 3px solid black;
 }
 
 .card a {
