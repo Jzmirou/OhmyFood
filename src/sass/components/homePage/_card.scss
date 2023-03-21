@@ -17,9 +17,7 @@
     @extend %box-shadow__card-hover;
     transform: translateY(-0.1rem);
 }
-.card:focus-within {
-    outline: 3px solid black;
-}
+
 .card a {
     position: absolute;
     inset: 0;
