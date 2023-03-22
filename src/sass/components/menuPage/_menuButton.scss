@@ -8,6 +8,9 @@
     background: var(--bg-white, map-get($colors, bg, "white"));
     @extend %box-shadow__card;
     overflow: hidden;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: both;
     &:hover .check__container,
     &.checked .check__container {
         flex-basis: 5rem;
@@ -52,4 +55,39 @@
         transform: rotate(-90deg);
         transition: transform 0.2s ease;
     }
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade2 {
+    animation-delay: 0.25s;
+}
+.fade3 {
+    animation-delay: 0.5s;
+}
+.fade4 {
+    animation-delay: 0.75s;
+}
+.fade5 {
+    animation-delay: 1s;
+}
+.fade6 {
+    animation-delay: 1.25s;
+}
+.fade7 {
+    animation-delay: 1.5s;
+}
+.fade8 {
+    animation-delay: 1.75s;
+}
+.fade9 {
+    animation-delay: 2s;
+}
+.fade10 {
+    animation-delay: 2.25s;
 }
