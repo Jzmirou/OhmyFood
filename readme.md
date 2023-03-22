@@ -45,6 +45,13 @@ restaurants car leur menu est préparé à l’avance. Plus de perte de temps à
 \
 [![Google PageSpeeg](./images/lighthouse.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fjzmirou.github.io%2FOhmyFood%2F&hl=fr&form_factor=mobile)
 
+## **W3C Validateur**
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjzmirou.github.io%2FOhmyFood%2F"><img width=150 src="./images/220_-_html5_validator_badges_4x.png">
+</a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjzmirou.github.io%2FOhmyFood%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr"><img width=150 src="./images/badgeW3Ccss.png">
+</a>
+
 ## **Auteurs**
 
 <b>
